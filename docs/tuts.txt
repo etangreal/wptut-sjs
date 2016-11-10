@@ -137,6 +137,34 @@
     npmjs.com/package/dotenv
 
 // ------------------------------------------------------------------------------------------------
+// GIT
+// ------------------------------------------------------------------------------------------------
+
+    echo "# wptut-sjs" >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git remote add origin git@github.com:etangreal/wptut-sjs.git
+    git push -u origin master
+
+    help.github.com/articles/error-permission-denied-publickey
+	help.github.com/articles/generating-ssh-keys
+	help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+        ssh-keygen -t etangreal_rsa -b 4096 -C "etangreal@gmail.com"
+
+        eval `ssh-agent -s`
+        eval "$(ssh-agent -s)"
+
+		ssh-add ~/.ssh/etangreal_rsa
+
+		ssh -T git@github.com
+
+		ssh-add -l
+
+		pbcopy < ~/.ssh/etangreal_rsa.pub
+
+// ------------------------------------------------------------------------------------------------
 // COMMANDS
 // ------------------------------------------------------------------------------------------------
 

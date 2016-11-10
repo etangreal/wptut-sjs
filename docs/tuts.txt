@@ -147,6 +147,8 @@
     git remote add origin git@github.com:etangreal/wptut-sjs.git
     git push -u origin master
 
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
     help.github.com/articles/error-permission-denied-publickey
 	help.github.com/articles/generating-ssh-keys
 	help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
@@ -163,6 +165,10 @@
 		ssh-add -l
 
 		pbcopy < ~/.ssh/etangreal_rsa.pub
+
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    git push origin --delete gh-pages
 
 // ------------------------------------------------------------------------------------------------
 // COMMANDS

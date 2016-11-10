@@ -71,7 +71,7 @@ switch(process.env.npm_lifecycle_event) {
             output: {
                 path: PATHS.build,
                 // Tweak this to match your GitHub project name
-                publicPath: '/webpack-demo/',
+                publicPath: '/wptut-sjs/',
 
                 filename: '[name].[chunkhash].js',
 

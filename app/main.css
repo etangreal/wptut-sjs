@@ -1,0 +1,11 @@
+/*body {
+  background: cornsilk;
+}*/
+
+:global(body) { 
+  background: cornsilk;
+}
+
+:local(.redButton) {
+  background: red;
+}

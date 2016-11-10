@@ -1,0 +1,194 @@
+
+// ------------------------------------------------------------------------------------------------
+// TUTORIAL
+// ------------------------------------------------------------------------------------------------
+
+    HOME: 
+        survivejs.com/webpack/introduction
+
+    TUT:
+        PART-I: 
+            survivejs.com/webpack/developing-with-webpack/getting-started
+            survivejs.com/webpack/developing-with-webpack/splitting-configuration
+            survivejs.com/webpack/developing-with-webpack/automatic-browser-refresh
+            survivejs.com/webpack/developing-with-webpack/refreshing-css
+            survivejs.com/webpack/developing-with-webpack/enabling-sourcemaps
+
+        PART-II:
+            survivejs.com/webpack/building-with-webpack/minifying-build
+            survivejs.com/webpack/building-with-webpack/setting-environment-variables
+            survivejs.com/webpack/building-with-webpack/splitting-bundles
+            survivejs.com/webpack/building-with-webpack/adding-hashes-to-filenames
+            survivejs.com/webpack/building-with-webpack/cleaning-build
+            survivejs.com/webpack/building-with-webpack/separating-css
+            survivejs.com/webpack/building-with-webpack/eliminating-unused-css
+            survivejs.com/webpack/building-with-webpack/analyzing-build-statistics
+            survivejs.com/webpack/building-with-webpack/hosting-on-github-pages
+
+    GIT-REPO:
+        github.com/survivejs-demos/webpack-demo
+
+// ------------------------------------------------------------------------------------------------
+// DOCS
+// ------------------------------------------------------------------------------------------------
+
+    webpack.github.io/docs/configuration.html#context
+
+    stackoverflow.com/questions/28858176/what-does-webpack-mean-by-xx-hidden-modules
+
+    nodejs.org/api/path.html
+
+    webpack.github.io/docs/using-loaders.html
+
+    Sourcemaps
+        developer.chrome.com/devtools/docs/javascript-debugging
+        developer.mozilla.org/en-US/docs/Tools/Debugger/How_to/Use_a_source_map
+        developer.microsoft.com/en-us/microsoft-edge/platform/documentation/f12-devtools-guide/debugger/#source-maps
+        developer.apple.com/library/safari/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/ResourcesandtheDOM/ResourcesandtheDOM.html#//apple_ref/doc/uid/TP40007874-CH3-SW2
+
+    webpack.github.io/docs/configuration.html#devtool
+
+    webpack.github.io/docs/configuration.html#output-sourcemapfilename
+    webpack.github.io/docs/list-of-plugins.html#sourcemapdevtoolplugin
+
+    lisperator.net/uglifyjs
+
+// ------------------------------------------------------------------------------------------------
+// ADDITIONAL
+// ------------------------------------------------------------------------------------------------
+
+    docs.npmjs.com/files/package.json
+
+    vagrantup.com
+    npmjs.com/package/nvm
+
+    livereload.com
+    browsersync.io
+
+// ------------------------------------------------------------------------------------------------
+// RESOURCES
+// ------------------------------------------------------------------------------------------------
+
+    npmjs.com/package/html-webpack-plugin
+
+    webpack.github.io/docs/list-of-loaders.html
+
+    github.com/css-modules/css-modules
+
+    npmjs.com/package/uglify-loader
+
+    npmjs.com/package/babel-plugin-transform-inline-environment-variables
+    babeljs.io/docs/plugins/transform-inline-environment-variables
+
+    npmjs.com/package/react-dom
+    npmjs.com/package/preact
+    npmjs.com/package/react-lite
+
+    webpack.github.io/docs/list-of-plugins.html#commonschunkplugin
+    webpack.github.io/docs/code-splitting.html
+
+    npmjs.com/package/extract-text-webpack-plugin
+
+    github.com/purifycss/purifycss
+    npmjs.com/package/purifycss-webpack-plugin
+    purecss.io
+    github.com/purifycss/purifycss#the-optional-options-argument
+
+    webpack.github.io/analyse
+        github.com/webpack/analyse
+    chrisbateman.github.io/webpack-visualizer
+    alexkuz.github.io/webpack-chart
+        github.com/alexkuz/webpack-chart
+    github.com/robertknight/webpack-bundle-size-analyzer
+    
+    npmjs.com/package/stats-webpack-plugin
+        github.com/unindented/stats-webpack-plugin
+        webpack.github.io/docs/cli.html#profiling
+
+    pages.github.com
+    npmjs.com/package/gh-pages
+
+// ------------------------------------------------------------------------------------------------
+// TIPS
+// ------------------------------------------------------------------------------------------------
+
+    You can set those npm init defaults at ~/.npmrc.
+
+    webpack --display-modules
+    node_modules/.bin/webpack --display-modules
+
+    whoami
+    sudo chown esalzmann /user/local/lib/node_modules
+
+    npmjs.com/package/favicons-webpack-plugin
+
+    netstat -na | grep 8080
+
+    webpack-dev-server --inline --hot
+
+    localhost:8080/webpack-dev-server/
+
+    ifconfig | grep inet
+    npmjs.com/package/node-ip
+
+    webpack.github.io/docs/webpack-dev-middleware.html
+    webpack.github.io/docs/webpack-dev-server.html#api
+
+    npmjs.com/package/dotenv
+
+// ------------------------------------------------------------------------------------------------
+// COMMANDS
+// ------------------------------------------------------------------------------------------------
+
+    mkdir webpack-demo && cd webpack-demo
+    cd webpack-demo
+    npm init -y
+
+    npm i webpack --save-dev
+
+    node_modules/.bin/webpack
+
+    npm i html-webpack-plugin --save-dev
+
+    npm i serve -g
+
+    serve ./build
+
+    npm run build
+    npm start ( i.e: => npm run start )
+
+    npm i webpack-merge --save-dev
+
+    npm i webpack-validator --save-dev
+
+    npm i webpack-dev-server --save-dev
+
+    npm start
+
+    // export PORT=3000
+
+    npm i css-loader style-loader --save-dev
+
+    npm i react --save
+
+    rm -rf ./build && webpack
+    rm -rf ./build && webpack --config='webpack.config.js'
+
+    npm i clean-webpack-plugin --save-dev
+
+    npm i extract-text-webpack-plugin --save-dev
+
+    npm i purifycss-webpack-plugin --save-dev
+
+    npm i purecss --save
+
+    pages.github.com
+
+    npm i gh-pages --save-dev
+
+    npm run deploy
+
+// ------------------------------------------------------------------------------------------------
+// END
+// ------------------------------------------------------------------------------------------------
+
